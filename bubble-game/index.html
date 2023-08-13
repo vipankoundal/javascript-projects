@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon Game</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+</head>
+
+<body>
+    <div class="master">
+        <div class="container">
+            <header>
+                <div class="header__list">hits <span class="hit"></span></div>
+                <div class="header__list">Timer <span id="timer">60</span></div>
+                <div class="header__list">Score <span class="score">0</span></div>
+            </header>
+            <main>
+                <div class="bubbles" id="bubbles">
+
+
+                </div>
+            </main>
+        </div>
+    </div>
+    <audio id="track">
+        <source src="sound/blows-up.wav" type="audio/mpeg">
+    </audio>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
